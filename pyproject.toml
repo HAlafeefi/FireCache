@@ -1,19 +1,28 @@
 [project]
 name = "firecache"
 version = "0.0.1"
-description = ""
+description = "Firefox cache viewer and exporter"
 authors = [
     {name = "Hamad",email = "60110135+HAlafeefi@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+license = "MIT"
+requires-python = ">=3.10"
 dependencies = [
 ]
+
+
+[tool.poetry]
+packages = [{include = "firecache"}]
+homepage = "https://github.com/HAlafeefi/FireCache"
+repository = "https://github.com/HAlafeefi/FireCache"
+documentation = "https://github.com/HAlafeefi/FireCache"
+
+[tool.poetry.urls]
+Changelog = "https://github.com/HAlafeefi/FireCache/releases"
+Issues = "https://github.com/HAlafeefi/FireCache/issues"
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-packages = [{include = "firecache"}]
